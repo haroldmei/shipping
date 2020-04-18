@@ -2,7 +2,7 @@ version: '2'
 
 services:
   shipping:
-    image: weaveworksdemos/shipping
+    image: haroldmei/shipping
     hostname: shipping
     restart: always
     cap_drop:

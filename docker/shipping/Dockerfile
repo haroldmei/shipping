@@ -1,4 +1,4 @@
-FROM weaveworksdemos/msd-java:jre-latest
+FROM haroldmei/msd-java:jre-latest
 
 WORKDIR /usr/src/app
 COPY *.jar ./app.jar

@@ -6,7 +6,7 @@ jdk:
 - oraclejdk8
 install: true
 env:
-- GROUP=weaveworksdemos COMMIT=$TRAVIS_COMMIT TAG=$TRAVIS_TAG REPO=shipping;
+- GROUP=haroldmei TRAVIS_TAG=latest COMMIT=$TRAVIS_COMMIT TAG=$TRAVIS_TAG REPO=shipping;
 script:
 - set -e
 - "./scripts/build.sh;"
