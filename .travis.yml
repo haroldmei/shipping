@@ -5,6 +5,8 @@ services:
 jdk:
 - oraclejdk8
 install: true
+dist: trusty
+
 env:
 - GROUP=haroldmei TRAVIS_TAG=latest COMMIT=$TRAVIS_COMMIT TAG=$TRAVIS_TAG REPO=shipping;
 script:
