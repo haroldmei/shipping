@@ -2,7 +2,7 @@ from util.Docker import Docker
 
 
 class Dredd:
-    image = 'haroldmei/openapi'
+    image = 'weaveworksdemos/openapi'
     container_name = ''
 
     def test_against_endpoint(self, json_spec, endpoint_container_name, api_endpoint, mongo_endpoint_url,
