@@ -6,6 +6,6 @@ COMMIT=$(TRAVIS_TAG)
 .EXPORT_ALL_VARIABLES:
 
 build:
-	./scripts/build.sh
-	./scripts/push.sh
-	
+  ./scripts/build.sh
+  ./scripts/push.sh
+    
